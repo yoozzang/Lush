@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./section1.css");
+@import url("./section2.css");
+@import url("./section3.css");
+@import url("./section4.css");
+@import url("./footer.css");
+@import url("./popup.css");
+
+ul#skip {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+ul#skip li {
+  width: 100%;
+}
+ul#skip li a {
+  display: block;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+}
+ul#skip li a:focus {
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+
+#wrap {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#wrap #main {
+  position: relative;
+  z-index: 2;
+}

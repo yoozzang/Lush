@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url("./reset.css");
+
+#popup {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#popup .container {
+  width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 300px 0 100px 0;
+}
+
+#popup .container form#search-popup {
+  width: 100%;
+}
+#popup .container form#search-popup .txtinput {
+  width: 100%;
+}
+
+#popup .container form#search-popup .txtinput .inp-wrap {
+  position: relative;
+  padding: 0 60px 0 0;
+}
+
+#popup .container form#search-popup .txtinput .inp-wrap #search-form {
+  width: 100%;
+  height: 77px;
+  background: none;
+  border-bottom: 1px solid #fff;
+  font-size: 22px;
+  text-align: center;
+  padding: 0 5px;
+  outline: none;
+  font-weight: 600;
+  color: #fff;
+}
+#popup .container form#search-popup .txtinput .inp-wrap .inp-search {
+  position: absolute;
+  display: block;
+  top: 20px;
+  right: 0;
+}
+
+#popup .container form#search-popup .txtinput .tit-tab {
+  width: 700px;
+  margin: 70px 0 0;
+  text-align: center;
+}
+#popup .container form#search-popup .txtinput .tit-tab li {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 22px;
+}
+#popup .container form#search-popup .txtinput .tit-tab li a.selected {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  line-height: 22px;
+  display: inline-block;
+}
+
+#popup .container form#search-popup .txtinput .keyword-slide-container {
+  width: 700px;
+}
+#popup
+  .container
+  form#search-popup
+  .txtinput
+  .keyword-slide-container
+  .keyword-slide-view {
+  width: 100%;
+  height: 384px;
+  overflow: hidden;
+  margin: 50px 0 0;
+}
+#popup
+  .container
+  form#search-popup
+  .txtinput
+  .keyword-slide-container
+  .keyword-slide-view
+  .keyword-slide-wrap {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  position: relative;
+}
+#popup
+  .container
+  form#search-popup
+  .txtinput
+  .keyword-slide-container
+  .keyword-slide-view
+  .keyword-slide-wrap
+  .key-slide {
+  width: 398px;
+  height: 76.03px;
+  margin: 0 auto;
+  line-height: 70px;
+  font-size: 22px;
+}
+
+#popup
+  .container
+  form#search-popup
+  .txtinput
+  .keyword-slide-container
+  .keyword-slide-view
+  .keyword-slide-wrap
+  .key-slide
+  a {
+  color: #fff;
+  transition: 0.4s;
+}
+
+#popup
+  .container
+  form#search-popup
+  .txtinput
+  .keyword-slide-container
+  .keyword-slide-view
+  .keyword-slide-wrap
+  .key-slide
+  a:hover {
+  color: #717171;
+}
+
+#popup .popup-exit-wrap {
+  position: absolute;
+  top: 200px;
+  right: 10%;
+}
+#popup .popup-exit-wrap .popup-exit-btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#popup .popup-exit-wrap .popup-exit-btn a {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url("./reset.css");
+
+#wrap #main #section4 {
+  width: 100%;
+}
+#wrap #main #section4 .main-wrap4 {
+  width: 100%;
+  height: 479.59px;
+  padding: 90px 0 200px 0;
+}
+#wrap #main #section4 .main-wrap4 .inner-wrap4 {
+  width: 100%;
+  max-width: 1180px;
+  height: 189.59px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#wrap #main #section4 .main-wrap4 .inner-wrap4 dl {
+  width: 655px;
+  padding: 0 0 0 300px;
+}
+#wrap #main #section4 .main-wrap4 .inner-wrap4 dl dt {
+  font-size: 42px;
+  padding: 0 0 20px 0;
+  color: #000;
+  font-weight: 600;
+}
+#wrap #main #section4 .main-wrap4 .inner-wrap4 dl dd {
+  line-height: 26px;
+  font-size: 14px;
+}
+#wrap #main #section4 .main-wrap4 .inner-wrap4 dl dd:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#wrap #main #section4 .main-wrap4 .inner-wrap4 a {
+  display: block;
+  position: absolute;
+  top: -110px;
+  right: 100px;
+}

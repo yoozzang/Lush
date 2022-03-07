@@ -1,0 +1,211 @@
+@media all and (max-width: 1300px) {
+  .page-btn-wrap {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1195px) {
+  #wrap #header {
+    width: 100%;
+    height: 50px;
+  }
+  #empty {
+    height: 50px;
+  }
+
+  #wrap #header .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  #wrap #header .container .m-left,
+  #wrap #header .container .m-center,
+  #wrap #header .container .m-right {
+    display: block;
+  }
+
+  #wrap #header .left,
+  #wrap #header .center,
+  #wrap #header .right {
+    display: none;
+  }
+
+  #wrap #main .showcase-Bn {
+    height: 100%;
+  }
+  #wrap #main .showcase-Bn .bn-inner {
+    width: 100%;
+  }
+  #wrap #main .showcase-Bn .bn-inner .bn_showcase,
+  #wrap #main .showcase-Bn .bn-inner .btn-showcase {
+    display: none;
+  }
+  #wrap #main .showcase-Bn .bn-inner .m-showcase,
+  #wrap #main .showcase-Bn .bn-inner .m-btn-showcase {
+    display: block;
+  }
+
+  /* 모바일 섹션 1 */
+  #wrap #main #section1 {
+    height: auto;
+  }
+  #wrap #main #section1 .slide-container {
+    display: none;
+  }
+  #wrap #main #section1 .m-slide-container {
+    display: block;
+    height: auto;
+  }
+  #wrap
+    #main
+    #section1
+    .m-slide-container
+    .m-slide-view
+    .m-slide-wrap
+    .m-slide {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 섹션2 */
+  #wrap #main #section2 .section2_inner .inner_wrap h2,
+  #wrap #main #section2 .section2_inner .inner_wrap .st2-slide-container {
+    display: none;
+  }
+
+  #wrap #main #section2 {
+    position: relative;
+    width: 100%;
+    max-width: 1195px;
+    height: 1100px;
+    padding: 0;
+  }
+  #wrap #main #section2 .section2_inner {
+    width: 100%;
+    max-width: 1195px;
+    height: 100%;
+  }
+
+  #wrap #main #section2 .section2_inner .inner_wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  #wrap #main #section2 .section2_inner .inner_wrap .more-slide-container {
+    width: 885px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -95px;
+    margin: 0 auto;
+  }
+
+  #wrap
+    #main
+    #section2
+    .section2_inner
+    .inner_wrap
+    .more-slide-container
+    .more-slide-view
+    .more-slide-wrap {
+    width: 800%;
+    margin-left: -100%;
+    height: 100%;
+  }
+
+  #wrap
+    #main
+    #section2
+    .section2_inner
+    .inner_wrap
+    .more-slide-container
+    .more-slide-view
+    .more-slide-wrap
+    .more-slide {
+    width: 885px;
+    height: 1100px;
+  }
+
+  #wrap
+    #main
+    #section2
+    .section2_inner
+    .inner_wrap
+    .more-slide-container
+    .more-slide-view
+    .more-slide-wrap
+    .more-slide0 {
+    background: url(../../img/m_section2_slide0.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  #wrap
+    #main
+    #section2
+    .section2_inner
+    .inner_wrap
+    .more-slide-container
+    .more-slide-view
+    .more-slide-wrap
+    .more-slide1 {
+    background: url(../../img/m_section2_slide1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  #wrap
+    #main
+    #section2
+    .section2_inner
+    .inner_wrap
+    .more-slide-container
+    .more-slide-view
+    .more-slide-wrap
+    .more-slide2 {
+    background: url(../../img/m_section2_slide2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  #wrap
+    #main
+    #section2
+    .section2_inner
+    .inner_wrap
+    .more-slide-container
+    .more-slide-view
+    .more-slide-wrap
+    .more-slide3 {
+    background: url(../../img/m_section2_slide3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  #wrap
+    #main
+    #section2
+    .section2_inner
+    .inner_wrap
+    .more-slide-container
+    .more-slide-view
+    .more-slide-wrap
+    .more-slide4 {
+    background: url(../../img/m_section2_slide4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  #wrap
+    #main
+    #section2
+    .section2_inner
+    .inner_wrap
+    .more-slide-container
+    .more-slide-view
+    .more-slide-wrap
+    .more-slide5 {
+    background: url(../../img/m_section2_slide5.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  /* 섹션2 반응형 전용 시작 */
+
+  #wrap #main #m-section2 {
+    display: block;
+  }
+
+  /* 섹션2 반응형 전용 끝  */
+}
